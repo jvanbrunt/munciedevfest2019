@@ -47,6 +47,10 @@ flutter:
 
   assets:
     - assets/brooke-lark-unsplash.jpg
+  fonts: # New
+    - family: Merriweather
+      fonts:
+        - asset: fonts/Merriweather-Regular.ttf
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.
