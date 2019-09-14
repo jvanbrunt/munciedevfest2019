@@ -47,10 +47,14 @@ flutter:
 
   assets:
     - assets/brooke-lark-unsplash.jpg
+    - assets/g-logo.png
   fonts: # New
     - family: Merriweather
       fonts:
         - asset: fonts/Merriweather-Regular.ttf
+    - family: Roboto
+      fonts:
+        - asset: fonts/Roboto-Medium.tff
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.
