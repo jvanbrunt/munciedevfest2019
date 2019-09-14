@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:muncie_dev_fests/ui/screens/login.dart';
 import 'package:muncie_dev_fests/ui/theme.dart';
+import 'package:muncie_dev_fests/ui/screens/home.dart';
 
 void main() => runApp(MyApp());
 
@@ -14,7 +15,7 @@ class MyApp extends StatelessWidget {
       theme: buildTheme(), // New code
       initialRoute: '/login',
       routes: {
-        '/': (context) => LoginScreen(),
+        '/': (context) => HomeScreen(),
         '/login': (context) => LoginScreen(),
       },
     );
