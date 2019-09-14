@@ -1,4 +1,3 @@
-
 import 'package:flutter/material.dart';
 
 class LoginScreen extends StatelessWidget {
@@ -17,11 +16,14 @@ class LoginScreen extends StatelessWidget {
     Text _buildText() {
       return Text(
         'Recipes',
+        style: Theme.of(context).textTheme.headline,
         textAlign: TextAlign.center,
       );
     }
 
     return Scaffold(
+      // We do not use backgroundColor property anymore.
+      // New Container widget wraps our Center widget:
       body: Container(
         decoration: _buildBackground(),
         child: Center(
